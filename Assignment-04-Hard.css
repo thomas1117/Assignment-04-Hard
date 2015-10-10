@@ -10,7 +10,6 @@ html {
 	background-color:#FA6938;
 	margin: 0;
 	font-size: 14px;
-	width:100%;
 
 }
 #nav #deals li {
@@ -76,7 +75,7 @@ html {
 }
 
 #types {
-	width:862px;
+	width:980px;
 	margin:auto;
 	height:300px;
 }
@@ -102,7 +101,7 @@ html {
 
 }
 .bannerTypes img {
-	width:275px;
+	width:314px;
 }
 
 #bannerTies img{ 
@@ -146,19 +145,24 @@ a {
 }
 #tieInfo {
 	margin: 0 auto;
-	width:1005px;
+	width:980px;
 	position: relative;
 	top:150px;
 	height: 500px;
 }
 .info {
-	width:200px;
+	width:220px;
 	float: left;
-	margin-right: 30px;
+	margin-right: 25px;
+
+}
+
+.info p {
+	font-size: 12px;
 }
 
 .info img {
-	width: 250px;
+	width: 225px;
 }
 
 
