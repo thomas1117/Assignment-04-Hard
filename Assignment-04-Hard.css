@@ -56,14 +56,25 @@ html {
 	/*border-image:url("perforated-bottom@2x.png") */	
 }
 
-#bannerTypes span {
+#bannerTypes #bow {
 	position: absolute;
+	left:225px;
+}
+#bannerTypes #pocket {
+	position: absolute;
+	left:500px;
+}
+#bannerTypes #clip {
+	position: absolute;
+	left:750px;
 }
 #bannerTypes img {
 	height:150px;
+	z-index: 2;
 }
 #bannerTypes li{
-	float: left
+	float: left;
+	padding-right:15px;
 
 }
 #bannerTies img{ 
