@@ -1,0 +1,35 @@
+
+#nav #deals {
+	height: 20px;
+	background-color: orange;
+	margin: 0;
+}
+#nav #deals li {
+	float: left;
+	list-style: none;
+	padding-right: 15px;
+
+}
+
+#logo {
+	float: left;
+	width: 150px;
+}
+ #selection {
+	position: relative;
+	margin: 0;
+	float: left;
+	top:40px;
+
+}
+#selection li {
+	display: block;
+	list-style: none;
+	float: left;
+}
+
+.clearfix {
+	content: "";
+	display: block;
+	clear: both;
+}
