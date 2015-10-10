@@ -171,5 +171,14 @@ a {
 	background-color: #F4F4F4;
 }
 
+.links {
+	float: left;
+	width:140px;
+	font-size: 12px;
+}
+
+.links ul {
+	padding: 0px;
+}
 
 
