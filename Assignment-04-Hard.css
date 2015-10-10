@@ -133,4 +133,21 @@ h1 {
 ul {
 	list-style: none;
 }
+#tieInfo {
+	margin: 0 auto;
+	width:875px;
+	position: relative;
+	top:150px;
+}
+.info {
+	width:250px;
+	float: left;
+	padding-right: 30px;
+}
+
+.info img {
+	width: 250px;
+}
+
+
 
