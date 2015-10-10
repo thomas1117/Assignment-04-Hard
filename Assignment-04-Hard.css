@@ -1,6 +1,10 @@
 html {
 	font-family: Tahoma;
 }
+
+#masterContainer {
+	width:950px;
+}
 #nav #deals {
 	height: 35px;
 	background-color:#FA6938;
@@ -46,9 +50,18 @@ html {
 }
 
 #ties {
-	width:720px;
-	margin:auto;
+	width:920px;
+	margin-left: 20px;
 }
+
+#ties img {
+	padding-right: 15px;
+}
+#tiesColor li {
+	float: left;
+	padding-right: 50px;
+}
+
 #bannerTies {
 	background: #F4F4F4;
 	height: 365px;
@@ -56,27 +69,28 @@ html {
 	/*border-image:url("perforated-bottom@2x.png") */	
 }
 
-#bannerTypes #bow {
-	position: absolute;
-	left:225px;
+#types {
+	width:870px;
+	margin: 0 auto;
 }
-#bannerTypes #pocket {
-	position: absolute;
-	left:500px;
-}
-#bannerTypes #clip {
-	position: absolute;
-	left:750px;
-}
-#bannerTypes img {
-	height:150px;
-	z-index: 2;
-}
-#bannerTypes li{
+.bannerTypes {
+	position: relative;
 	float: left;
-	padding-right:15px;
-
+	padding-right:12px;
+	top:50px;
+	height: 200px;
 }
+
+.bannerTypes span {
+	position: absolute;
+	z-index: 1;
+	right:30px;
+	top:20px;
+}
+.bannerTypes img {
+	width:275px;
+}
+
 #bannerTies img{ 
 	height:155px;
 	width:75px;
