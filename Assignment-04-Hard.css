@@ -1,9 +1,11 @@
-
+html {
+	font-family: Tahoma;
+}
 #nav #deals {
-	height: 20px;
-	background-color: orange;
+	height: 35px;
+	background-color:#FA6938;
 	margin: 0;
-	font-size: 10px;
+	font-size: 14px;
 
 }
 #nav #deals li {
@@ -11,12 +13,14 @@
 	list-style: none;
 	padding-right: 15px;
 	position: relative;
-	top:3px;
+	top:8px;
+	color: white;
 }
 
 #logo {
 	float: left;
 	width: 150px;
+	height: 115px;
 }
 
  #selection {
@@ -47,6 +51,9 @@
 }
 #bannerTies {
 	background: #F4F4F4;
+	height: 365px;
+	border-bottom: 1px solid #EAEAEA;
+	
 }
 #bannerTies img{ 
 	height:155px;
@@ -55,4 +62,5 @@
 
 h1 {
 	text-align: center;
+	font-size: 50px;
 }
