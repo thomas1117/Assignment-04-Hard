@@ -169,6 +169,7 @@ a {
 #footer {
 	height:300px;
 	background-color: #F4F4F4;
+	padding-left: 25px;
 }
 
 .links {
@@ -179,6 +180,10 @@ a {
 
 .links ul {
 	padding: 0px;
+}
+
+.links li {
+	color:#909090;
 }
 
 
