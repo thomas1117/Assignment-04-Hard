@@ -13,6 +13,10 @@ html {
 	padding: 3px 9px 6px 8px;
 	right:9px;
 	border-radius: 4px;
+	float: left;
+	left:28px;
+	top:5px;
+	margin-right: 45px;
 
 }
 #nav #deals {
