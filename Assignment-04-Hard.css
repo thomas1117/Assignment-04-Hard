@@ -7,18 +7,21 @@ html {
 }
 
 #nav #free {
+	position: relative;
 	font-size: 13px;
 	background-color: #C8542D;
-	padding: 3px 3px 6px 3px;
+	padding: 3px 9px 6px 8px;
+	right:9px;
+	border-radius: 4px;
 
 }
 #nav #deals {
-	height: 35px;
+	height: 38px;
 	background-color:#FA6938;
 	margin: 0;
 	font-size: 14px;
-
 }
+
 #nav #deals li {
 	float: left;
 	margin-right: 15px;
@@ -221,7 +224,7 @@ a {
 	border: 1px solid #EAEAEA;
 }
 
-.emailInput {
+#emailInput {
 	height: 30px;
 	width:188px;
 	background-color:red;
@@ -231,6 +234,19 @@ a {
 	top:8px;
 	left: 5px;
 }
+
+#subscribeMe {
+	height: 28px;
+	width:100px;
+	background-color:red;
+	border-radius:3px;
+	border:1px solid #909090;
+	position:relative;
+	top:25px;
+
+}
+
+
 
 #footer {
 	height:240px;
