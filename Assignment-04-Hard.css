@@ -46,6 +46,7 @@ html {
 #optionsNav {
 	position: relative;
 	bottom:40px;
+
 }
 
 #sign p {
@@ -69,13 +70,20 @@ html {
 }
 
 #cart {
-	height: 32px;
-	width:98px;
+	height: 28px;
+	width:88px;
 	border-radius:3px;
 	border:1px solid #909090;
-	position:relative;
-	top:80px;
-	margin-left: 30px;
+	position:absolute;
+	top:78px;
+	right:250px;
+	text-align: center;
+	color: #909090;
+}
+
+#cart span {
+	position: relative;
+	top:5px;
 }
 
  #search {
@@ -86,14 +94,13 @@ html {
 	background-size: 500%;
 	background-position: 96px -27px;
 	border:1px solid #909090;
-	position:relative;
+	position:absolute;
 	top:80px;
 	color:#F4F4F4;
 	padding-left: 30px;
 	font-size: 12px;
+	right: 70px;
 }
-
-
 
  #selection {
 	position: relative;
