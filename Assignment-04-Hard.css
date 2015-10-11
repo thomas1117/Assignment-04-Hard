@@ -57,7 +57,7 @@ html {
 }
 
 #cart {
-	height: 35px;
+	height: 32px;
 	width:98px;
 	background-color:red;
 	border-radius:3px;
@@ -251,7 +251,49 @@ a {
 }
 
 #contactInfo {
+	background-color: #A2AFC0;
+	height:120px;
+	width: 295px;
+	float: right;
+	position: relative;
+	right:28px;
+	top:35px;
+	border-radius: 2px;
+	border:1px solid #929EAD;
+}
 
+#contactInfo h3 {
+	color: white;
+	position: relative;
+	left:16px;
+	font-size: 20px;
+	font-weight:normal;
+}
+
+#contactInfo h4{
+	color: white;
+	position: absolute;
+	left:16px;
+	bottom: 26px;
+	font-weight: normal;
+}
+
+#phoneNumber {
+	color: white;
+	position:absolute;
+	font-size: 20px;
+	bottom: 10px;
+	left:16px;
+	font-weight: normal;
+}
+
+#contactUs {
+	height: 40px;
+	width:75px;
+	background-color:#1782E0;
+	position: absolute;
+	right:16px;
+	bottom:10px;
 }
 
 
