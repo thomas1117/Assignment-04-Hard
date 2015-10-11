@@ -5,6 +5,13 @@ html {
 #masterContainer {
 	width:1050px;
 }
+
+#nav #free {
+	font-size: 13px;
+	background-color: #C8542D;
+	padding: 3px 3px 6px 3px;
+
+}
 #nav #deals {
 	height: 35px;
 	background-color:#FA6938;
@@ -15,7 +22,7 @@ html {
 #nav #deals li {
 	float: left;
 
-	padding-right: 15px;
+	margin-right: 15px;
 	position: relative;
 	top:8px;
 	color: white;
@@ -31,18 +38,22 @@ html {
 
 #sign p {
 	display:block;
-	width:250px;
+	width:164px;
 	position: absolute;
 	right:0;
-
+	font-size: 10px;
+	top:45px;
+	color:#909090;
 }
 
 #register p {
 	display:block;
-	width:250px;
+	width:168px;
 	position: absolute;
 	right:-65px;
-
+	font-size: 10px;
+	top:45px;
+	color:#909090;
 }
 
  #selection {
@@ -215,6 +226,10 @@ a {
 
 .links li {
 	color:#909090;
+}
+
+#contactInfo {
+
 }
 
 
