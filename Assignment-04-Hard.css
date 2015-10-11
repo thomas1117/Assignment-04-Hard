@@ -83,12 +83,17 @@ html {
 	height: 22px;
 	width:138px;
 	border-radius:3px;
+	background-image:url("Assets/sprite@2x.png");
+	background-repeat: no-repeat;
+	background-position: 80px 1px;
 	border:1px solid #909090;
 	position:absolute;
 	right:55px;
 	top:80px;
 	color:#F4F4F4;
 }
+
+
 
  #selection {
 	position: relative;
@@ -256,7 +261,39 @@ a {
 
 }
 
+#facebook {
+	height: 50px;
+	width: 50px;
+	margin-right: 8px;
+	float: left;
+	background-image:url("Assets/sprite@2x.png");
+	background-position: 166px 3px;
+	background-size: 1000%;
 
+
+}
+#pinterest {
+	height: 50px;
+	width: 50px;
+	margin-right: 8px;
+	border-radius: 100px;
+	background-image:url("Assets/sprite@2x.png");
+	background-position: 166px -47px;
+	background-size: 1000%;
+
+	float: left;
+	
+}
+#twitter {
+	height: 50px;
+	width: 50px;
+	border-radius: 100px;
+	background-image:url("Assets/sprite@2x.png");
+	background-position: 168px -97px;
+	background-size: 1000%;
+	float: left;
+
+}
 
 #footer {
 	height:240px;
