@@ -75,7 +75,7 @@ html {
 }
 
 #types {
-	width:995px;
+	width:980px;
 	margin:auto;
 	height:300px;
 }
@@ -88,7 +88,7 @@ html {
 	padding-right:13px;
 	top:50px;
 	height: 200px;
-	margin: auto;
+	margin:0 auto;
 }
 
 .bannerTypes span {
@@ -146,16 +146,20 @@ a {
 }
 #tieInfo {
 	margin: 0 auto;
-	width:1095px;
+	width:980px;
 	position: relative;
 	top:150px;
 	height: 450px;
 }
 .info {
-	width:220px;
+	width:224px;
 	float: left;
 	margin-right: 25px;
 
+}
+
+.info:nth-child(4) {
+	margin-right: 0px;
 }
 
 .info p {
@@ -164,6 +168,7 @@ a {
 
 .info img {
 	width: 225px;
+	border: 1px solid #EAEAEA;
 }
 
 #footer {
@@ -174,8 +179,16 @@ a {
 
 .links {
 	float: left;
-	width:140px;
-	font-size: 12px;
+	width:112px;
+	font-size: 14px;
+}
+
+.links h3 {
+	font-size:14px;
+}
+
+.links:nth-child(3) {
+	padding-right:18px;
 }
 
 .links ul {
