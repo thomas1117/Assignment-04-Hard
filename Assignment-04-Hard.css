@@ -21,7 +21,6 @@ html {
 }
 #nav #deals li {
 	float: left;
-
 	margin-right: 15px;
 	position: relative;
 	top:8px;
@@ -222,7 +221,7 @@ a {
 }
 
 #footer {
-	height:300px;
+	height:240px;
 	background-color: #F4F4F4;
 	padding-left: 25px;
 }
@@ -231,6 +230,8 @@ a {
 	float: left;
 	width:112px;
 	font-size: 14px;
+	position: relative;
+	top:20px;
 }
 
 .links h3 {
@@ -252,8 +253,8 @@ a {
 
 #contactInfo {
 	background-color: #A2AFC0;
-	height:120px;
-	width: 295px;
+	height:130px;
+	width: 302px;
 	float: right;
 	position: relative;
 	right:28px;
@@ -282,18 +283,34 @@ a {
 	color: white;
 	position:absolute;
 	font-size: 20px;
-	bottom: 10px;
+	bottom: 20px;
 	left:16px;
 	font-weight: normal;
 }
 
 #contactUs {
 	height: 40px;
-	width:75px;
-	background-color:#1782E0;
+	width:102px;
+	background-color:#33A1FF;
 	position: absolute;
 	right:16px;
-	bottom:10px;
+	bottom:20px;
+	text-align: center;
+	background-color: 1px solid #EAEAEA;
+	border-radius: 2px;
+}
+
+#contactUs p {
+	position: relative;
+	bottom:5px;
+	color:white;
+}
+
+#copyright {
+	position:relative;
+	top:30px;
+	font-size: 12px;
+	color:#909090;
 }
 
 
