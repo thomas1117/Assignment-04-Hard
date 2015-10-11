@@ -96,10 +96,10 @@ html {
 	border:1px solid #909090;
 	position:absolute;
 	top:80px;
-	color:#F4F4F4;
 	padding-left: 30px;
 	font-size: 12px;
 	right: 70px;
+	box-shadow: 0 0 5px #909090;
 }
 
  #selection {
@@ -116,6 +116,14 @@ html {
 	padding-right: 35px;
 	margin-left: 0;
 }
+#selection #dropDown {
+	display: none;
+}
+
+#selection #collection:hover {
+	display: block;
+}
+
 
 .clearfix {
 	content: "";
@@ -138,13 +146,11 @@ html {
 }
 
 
-
 #bannerTies {
 	background: #F4F4F4;
 	height: 365px;
 	width:1050px;
-	border-bottom: 1px solid #EAEAEA;
-	/*border-image:url("perforated-bottom@2x.png") */	
+	border-bottom: 1px solid #EAEAEA;	
 }
 
 #types {
@@ -250,7 +256,7 @@ a {
 #emailInput {
 	height: 30px;
 	width:188px;
-
+	box-shadow: 0 0 5px #909090;
 	border-radius:3px;
 	border:1px solid #909090;
 	position:relative;
@@ -292,7 +298,6 @@ a {
 	background-image:url("Assets/sprite@2x.png");
 	background-position: 166px -47px;
 	background-size: 1000%;
-
 	float: left;
 	
 }
