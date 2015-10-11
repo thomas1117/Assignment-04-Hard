@@ -105,7 +105,6 @@ html {
  #selection {
 	position: relative;
 	margin: 0;
-	float: left;
 	top:40px;
 	right: 10px;
 	font-size: 20px;
@@ -113,14 +112,20 @@ html {
 #selection li {
 	display: block;
 	float: left;
-	padding-right: 35px;
-	margin-left: 0;
-}
-#selection #dropDown {
-	display: none;
+	margin-left: 5px;
+	padding-left: 15px;
 }
 
-#selection #collection:hover {
+#selection li a {
+	color:black;
+}
+
+#selection #dropDown {
+	padding:0;
+	display: block;
+}
+
+#collection:hover {
 	display: block;
 }
 
@@ -270,7 +275,7 @@ a {
 	background-color:#33A1FF;
 	position: relative;
 	text-align: center;
-	border;: 1px solid #EAEAEA;
+	border: 1px solid #EAEAEA;
 	border-radius: 8px;
 	color: white;
 	outline:0;
@@ -388,7 +393,7 @@ a {
 	right:16px;
 	bottom:20px;
 	text-align: center;
-	border;: 1px solid #EAEAEA;
+	border: 1px solid #EAEAEA;
 	border-radius: 8px;
 	color: white;
 	outline:0;
