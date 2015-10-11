@@ -243,7 +243,7 @@ a {
 #emailInput {
 	height: 30px;
 	width:188px;
-	background-color:red;
+
 	border-radius:3px;
 	border:1px solid #909090;
 	position:relative;
@@ -251,16 +251,20 @@ a {
 	left: 5px;
 }
 
-#subscribeMe {
+#subscribe {
 	height: 28px;
-	width:100px;
-	background-color:red;
-	border-radius:3px;
-	border:1px solid #909090;
-	position:relative;
-	top:25px;
-
+	width:110px;
+	background-color:#33A1FF;
+	position: relative;
+	text-align: center;
+	border;: 1px solid #EAEAEA;
+	border-radius: 8px;
+	color: white;
+	outline:0;
+	border-style: solid;
+	top:20px;
 }
+
 
 #facebook {
 	height: 50px;
@@ -372,14 +376,11 @@ a {
 	right:16px;
 	bottom:20px;
 	text-align: center;
-	background-color: 1px solid #EAEAEA;
-	border-radius: 2px;
-}
-
-#contactUs p {
-	position: relative;
-	bottom:5px;
-	color:white;
+	border;: 1px solid #EAEAEA;
+	border-radius: 8px;
+	color: white;
+	outline:0;
+	border-style: solid;
 }
 
 #copyright {
