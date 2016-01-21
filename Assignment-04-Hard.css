@@ -3,7 +3,6 @@ html {
 }
 
 #masterContainer {
-	width:1050px;
 }
 
 #nav #free {
@@ -63,7 +62,6 @@ html {
 	display:block;
 	width:168px;
 	position: absolute;
-	right:-65px;
 	font-size: 10px;
 	top:45px;
 	color:#909090;
@@ -141,10 +139,24 @@ html {
 	margin: auto;
 }
 
+.tieIndividual {
+	display: inline-block;
+	position: relative;
+	width: 93px;
+}
+.tiecolor {
+	position: relative;
+	left:15px;
+}
+
 #ties img {
 	padding-right: 15px;
 }
 
+#tiesColor {
+	width:925px;
+	margin:auto;
+}
 #tiesColor li {
 	float: left;
 	padding-right: 50px;
@@ -154,7 +166,6 @@ html {
 #bannerTies {
 	background: #F4F4F4;
 	height: 365px;
-	width:1050px;
 	border-bottom: 1px solid #EAEAEA;	
 }
 
@@ -406,5 +417,6 @@ a {
 	font-size: 12px;
 	color:#909090;
 }
+
 
 
