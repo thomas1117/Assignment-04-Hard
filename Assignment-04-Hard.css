@@ -2,7 +2,16 @@ html {
 	font-family: Tahoma;
 }
 
+@media (max-width:990px) {
+	body #containBars {
+		position: relative;
+		display: inline-block;
+		bottom:15px;
+		left:60px;
+	}
+}
 #masterContainer {
+	min-width: 990px;
 }
 
 #nav #free {
@@ -73,15 +82,30 @@ html {
 	border-radius:3px;
 	border:1px solid #909090;
 	position:absolute;
-	top:78px;
+	background: #fff;
+	top:38px;
 	right:250px;
 	text-align: center;
 	color: #909090;
 }
 
-#cart span {
-	position: relative;
-	top:5px;
+#containBars {
+	position: absolute;
+	right: 20px;
+	width: 300px
+}
+
+#signin {
+	position: absolute;
+	left:80px;
+	top:20px;
+	font-size: 12px;
+}
+#reg {
+	position: absolute;
+	right:75px;
+	top:20px;
+	font-size: 12px;
 }
 
  #search {
@@ -93,7 +117,7 @@ html {
 	background-position: 96px -27px;
 	border:1px solid #909090;
 	position:absolute;
-	top:80px;
+	top:40px;
 	padding-left: 30px;
 	font-size: 12px;
 	right: 70px;
@@ -139,6 +163,9 @@ html {
 	margin: auto;
 }
 
+#ties ul {
+	text-align: center;
+}
 .tieIndividual {
 	display: inline-block;
 	position: relative;
@@ -146,12 +173,9 @@ html {
 }
 .tiecolor {
 	position: relative;
-	left:15px;
 }
 
-#ties img {
-	padding-right: 15px;
-}
+
 
 #tiesColor {
 	width:925px;
@@ -212,7 +236,7 @@ h1 {
 }
 #ourStory {
 	margin: 0 auto;
-	width:870px;
+	text-align: center;
 	font-size: 36px;
 	line-height: 1.5;
 	height: 130px;
